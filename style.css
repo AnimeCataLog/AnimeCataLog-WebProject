@@ -46,6 +46,7 @@ button:hover {
     color: white;
     background-color: #1e3442;
     overflow: hidden;
+    display: flex;
 }
 .downpage {
     border: 0px solid black;
@@ -87,7 +88,55 @@ nav {
 .navbar-right li:hover::after {
     opacity: 1;
 }
-@media screen and (max-width: 600px)
+.top-season-anime {
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    
+}
+.sidebar {
+    border: 1px solid black;
+    height: 1000px;
+    width: 185px;
+}
+.nr-1 {
+    padding: 22px 4px;
+}
+.nr-2 {
+    padding: 22px 4px;
+}
+.nr-3 {
+    padding: 22px 4px;
+}
+.nr-4 {
+    padding: 22px 4px;
+}
+.nr-5 {
+    padding: 22px 4px;
+}
+.nr-6 {
+    padding: 22px 4px;
+}
+.text-nr1{
+    display: inline-flex;
+}
+.text-nr2{
+    display: inline-flex;
+}
+.text-nr3{
+    display: inline-flex;
+}
+.text-nr4{
+    display: inline-flex;
+}
+.text-nr5{
+    display: inline-flex;
+}
+.text-nr6{
+    display: inline-flex;
+}
+@media screen and (max-width: 803px)
 {
     
 }
