@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+      <title>AnimeCataLog</title>
+    </head>
+   <body>
+         <header>
+          
+           <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+           </div>
+          <nav class="nav_bar">
+            <ul class="navbar-left">
+              <li><a class="cta "href="#"><button>Log In</button></a></li>
+            </ul>
+           <ul class="navbar_links">
+            <li><a href="#">Main Page</a></li>
+            <li><a href="#">Animelist</a></li>
+            <li><a href="#">Mangalist</a></li>
+           </ul> 
+        </nav>
+        <img class="logo" src="animecatalogue-low-resolution-logo-white-on-transparent-background.png" alt="logo">
+         </header>
+         <script>
+          hamburger = document.querySelector(".hamburger");
+          nav = document.querySelector("nav");
+          hamburger.onclick = function() {
+              nav.classList.toggle("active");
+          }
+      </script>
+         <div class="content">
+          <div class="sidebar">
+           side bar
+          </div>
+          <div class="top-season-anime">
+            <p class="text-nr1">nr.1 One Piece</p>
+           <img class="nr-1" src="One Piece.png" alt="nr.1">
+            <p class="text-nr2">nr.2 Oshi no Ko</p>
+           <img class="nr-2" src="Oshi no Ko plakat.png" alt="nr.2">
+            <p class="text-nr3">nr.3 Shingeki no Kyojin</p>
+           <img class="nr-3" src="Shingeki no Kyojin The Final Season Kanketsu-hen.png" alt="3">
+            <p class="text-nr4">nr.4 Kimetsu no yaiba</p>
+           <img class="nr-4" src="KnY Katanakaji no Sato-hen.png" alt="nr.4">
+            <p class="text-nr5">nr.5 Vinland Saga</p>
+           <img class="nr-5" src="Vinland Saga Season 2.png" alt="nr.5">
+            <p class="text-nr6">nr.6 Jigokuraku</p>
+           <img class="nr-6" src="Jigokuraku.png" alt="nr.6">
+          </div>
+         </div>
+         <div class="downpage">dół</div>
+   </body>
+</html>
